@@ -1,3 +1,7 @@
+#By SxNade
+#https://github.com/SxNade
+#CONTRIBUTE
+
 import os
 
 list = ['john','ftp','Odis','Yagi','Edwardo','Herlihy','Leandro','Norberg','Maximo','Duford', 'admin', 'root', 'bob', 'jugnu', 'manglu']
