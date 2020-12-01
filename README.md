@@ -12,12 +12,12 @@ These Script Works Best With Python3
 //Use Python3 to run the Program//
 
 # 𝕌ℙ𝔻𝔸𝕋𝔼
-1.User File support soon.
+1.Usernames File support soon.
 
 # 𝙍𝙐𝙉𝙉𝙄𝙉𝙂!
 
 TO RUN THE Script Simple Use the Following Commands On you machine
-python3 force.py
+python3 force-user.py Before doing this do not forget to change the IP in the smtp_user_brtfrce.py file...View IP.png file for more info.
  
 # 𝑴𝑨𝑲𝑬_𝑰𝑻_𝑩𝑬𝑻𝑻𝑬𝑹
 To make SMTP-USER-BRTFRCE Even Better Contribute to it Or use and Report Any Bugs or fixes Required..
