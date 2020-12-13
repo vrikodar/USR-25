@@ -31,4 +31,4 @@ TO RUN THE Script Simple Use the Following Commands On your machine
 # 𝑴𝑨𝑲𝑬_𝑰𝑻_𝑩𝑬𝑻𝑻𝑬𝑹
 To make SMTP-USER-BRTFRCE Even Better Contribute to it Or use and Report Any Bugs or fixes Required..
 
-`git clone https://github.com/SxNade/SMTP-USER-BRTFRCE
+`git clone https://github.com/SxNade/SMTP-USER-BRTFRCE`
