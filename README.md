@@ -7,27 +7,26 @@
 [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/SxNade)
 
 # SMTP-USER-BRTFRCE
-`A Simple python script to bruteforce smtp users from a list CONTAINED in the python file`
+`A Simple python script to bruteforce smtp users from a text file`
 
 # 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗔𝗧𝗜𝗢𝗡 𝗜𝗡𝗦𝗧𝗥𝗨𝗖𝗧𝗜𝗢𝗡𝗦
-`just run the command pip3 install termcolor.
- and also Python3 Should Be installed On your System`
+`pip3 install termcolor`
+
+`apt install python3-pip`
  
  # 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
 
-`Use Python3 to run the Program`
-
-`!!also update the list of usernames in smtp_user_brtfrce.py file!!`
-
-# 𝕌ℙ𝔻𝔸𝕋𝔼
-`1.Usernames File support soon.`
+**`Use Python3 to run the Program`**
 
 # 𝙍𝙐𝙉𝙉𝙄𝙉𝙂!
 
 TO RUN THE Script Simple Use the Following Commands On your machine
-`python3 force-user.py` 
+
+`python3 smtp_user_brtfrce.py <Target-IP> <usernames-list>`
+
 **Before doing this do not forget to change the IP in the smtp_user_brtfrce.py file...View IP.png file for more info**
-![Capture](https://raw.githubusercontent.com/SxNade/SMTP-USER-BRTFRCE/main/IP.png)
+
+![Capture](https://raw.githubusercontent.com/SxNade/SMTP-USER-BRTFRCE/main/sm.png)
  
 # 𝑴𝑨𝑲𝑬_𝑰𝑻_𝑩𝑬𝑻𝑻𝑬𝑹
 To make SMTP-USER-BRTFRCE Even Better Contribute to it Or use and Report Any Bugs or fixes Required..
