@@ -24,9 +24,9 @@ TO RUN THE Script Simple Use the Following Commands On your machine
 
 `python3 smtp_user_brtfrce.py <Target-IP> <usernames-list>`
 
-**Before doing this do not forget to change the IP in the smtp_user_brtfrce.py file...View IP.png file for more info**
 
 ![Capture](https://raw.githubusercontent.com/SxNade/SMTP-USER-BRTFRCE/main/sm.png)
+ 
  
 # 𝑴𝑨𝑲𝑬_𝑰𝑻_𝑩𝑬𝑻𝑻𝑬𝑹
 To make SMTP-USER-BRTFRCE Even Better Contribute to it Or use and Report Any Bugs or fixes Required..
