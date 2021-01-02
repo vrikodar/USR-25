@@ -1,5 +1,5 @@
 #By SxNade
-#https://github.com/SxNade
+#https://github.com/SxNade/SMTP-USER-BRTFRCE
 #CONTRIBUTE
 
 import socket
