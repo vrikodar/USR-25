@@ -26,7 +26,7 @@ TO RUN THE Script Simple Use the Following Commands On your machine
 `python3 smtp_user_brtfrce.py <Target-IP> <usernames-list>`
 
 
-![Capture](https://raw.githubusercontent.com/SxNade/SMTP-USER-BRTFRCE/main/sm.png)
+![Capture](https://github.com/SxNade/SMTP-USER-BRTFRCE/blob/main/smtp.gif)
  
  
 # 𝑴𝑨𝑲𝑬_𝑰𝑻_𝑩𝑬𝑻𝑻𝑬𝑹
