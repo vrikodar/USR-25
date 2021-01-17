@@ -2,6 +2,8 @@
 #https://github.com/SxNade/SMTP-USER-BRTFRCE
 #CONTRIBUTE
 
+#SMTP USER BRUTEFORCE
+
 import socket
 import sys
 from termcolor import colored
