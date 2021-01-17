@@ -45,6 +45,7 @@ golo = '''
 print(golo)
 time.sleep(1)
 print("\n (v2.0) starting...")
+time.sleep(2)
 
 #check for correct number of arguments
 if len(sys.argv) != 3:
