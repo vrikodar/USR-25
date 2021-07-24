@@ -14,6 +14,10 @@ import socket
 import sys
 import os
 import time
+import signal
+import time
+import threading
+
 #importing the required libraries
 
 golo = '''
@@ -50,7 +54,6 @@ golo = '''
 print(golo)
 time.sleep(1)
 print(f"\n [{GREEN}+{WHITE}] {RED}USR-25{WHITE} (v3.0) starting...\n")
-time.sleep(2)
 
 #check for correct number of arguments
 if len(sys.argv) != 3:
@@ -65,28 +68,29 @@ user_file = sys.argv[2]
 if os.path.exists(user_file) == False:
 	print(f'\n[{RED}!{WHITE}]File Not Found....exiting now..\n')
 	sys.exit(0)
-def brute(ip, wordlist):
-	with open(wordlist, 'r') as file:
-		for line in file.readlines():
-			try:
-				user = line.strip()
-				#socket connection
-				s = socket.socket()
-				s.connect((ip, 25))
-				s.recv(1024)
-				#here comes the command
-				s.send(f'VRFY {user}\r\n'.encode())
-				answer = s.recv(1024).decode()
-				if not "unknown" in answer.lower():
-					print(f"[{GREEN}+{WHITE}] {RED}{user}{WHITE} does exist")
-				s.close()
-			except KeyboardInterrupt:
-				input = f"[{RED}!{WHITE} Do you want to end bruteforce? (y/n)]"
-				if input.lower() == 'y':
-					print(f"[{GREEN}+{WHITE} Exiting.....]")
-					sys.exit(0)
-				else:
-					pass
 
+def brute(ip, word):
+			#socket connection
+			s = socket.socket()
+			s.connect((ip, 25))
+			s.recv(1024)
+			#here comes the command
+			s.send(f'VRFY {user}\r\n'.encode())
+			answer = s.recv(1024).decode()
+			if not "unknown" in answer.lower():
+				print(f"[{GREEN}+{WHITE}] {RED}{user}{WHITE} does exist")
+			s.close()
 
-brute(target_ip, user_file)
+def signal_handler(signal, frame):
+	print(f"\n[{GREEN}+{WHITE}] Exiting.....\n")
+	sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
+print(f"[{RED}!{WHITE}] Press Ctrl+C to stop...")
+forever = threading.Event()
+forever.wait()
+
+with open(user_file, 'r') as file:
+	for line in file.readlines():
+		user = line.strip()
+		brute(target_ip, user)
