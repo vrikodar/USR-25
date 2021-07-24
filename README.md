@@ -1,6 +1,3 @@
-[![SxNade](https://img.shields.io/badge/MadeBy-SxNade-red)
-
-
 # USR-25
 
 `A Simple python script to bruteforce smtp users from a text file`
