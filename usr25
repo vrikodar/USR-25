@@ -54,7 +54,7 @@ time.sleep(2)
 
 #check for correct number of arguments
 if len(sys.argv) != 3:
-	print(colored("\n Usage: ./usr25 <target-ip> <wordlist> \n", 'white', attrs=['reverse', 'blink']))
+	print(f"\n Usage: ./usr25 <{RED}target-ip{WHITE}> <{GREEN}wordlist{WHITE}> \n")
 	sys.exit(0)
 
 target_ip = sys.argv[1]
