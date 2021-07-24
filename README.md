@@ -1,7 +1,8 @@
 [![SxNade](https://img.shields.io/badge/MadeBy-SxNade-red)
 
 
-# SMTP-USER-BRTFRCE
+# USR-25
+
 `A Simple python script to bruteforce smtp users from a text file`
 
 # 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗔𝗧𝗜𝗢𝗡 𝗜𝗡𝗦𝗧𝗥𝗨𝗖𝗧𝗜𝗢𝗡𝗦
