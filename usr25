@@ -89,4 +89,4 @@ def brute(ip, wordlist):
 					pass
 
 
-brute(ip, user_file)
+brute(target_ip, user_file)
