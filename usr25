@@ -49,7 +49,7 @@ golo = '''
 
 print(golo)
 time.sleep(1)
-print(f"\n [{GREEN}+{WHITE}] {RED}USR-25{WHITE} (v2.0) starting...")
+print(f"\n [{GREEN}+{WHITE}] {RED}USR-25{WHITE} (v3.0) starting...")
 time.sleep(2)
 
 #check for correct number of arguments
