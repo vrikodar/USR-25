@@ -63,7 +63,7 @@ user_file = sys.argv[2]
 
 #check if the given file exists on the system
 if os.path.exists(user_file) == False:
-	print(f'[{RED}!{WHITE}]File Not Found....exiting now..!')
+	print(f'\n[{RED}!{WHITE}]File Not Found....exiting now..\n')
 	sys.exit(0)
 def brute(ip, wordlist):
 	with open(wordlist, 'r') as file:
