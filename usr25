@@ -81,15 +81,6 @@ def brute(ip, word):
 				print(f"[{GREEN}+{WHITE}] {RED}{user}{WHITE} does exist")
 			s.close()
 
-def signal_handler(signal, frame):
-	print(f"\n[{GREEN}+{WHITE}] Exiting.....\n")
-	sys.exit(0)
-
-signal.signal(signal.SIGINT, signal_handler)
-print(f"[{RED}!{WHITE}] Press Ctrl+C to stop...")
-forever = threading.Event()
-forever.wait()
-
 with open(user_file, 'r') as file:
 	for line in file.readlines():
 		user = line.strip()
