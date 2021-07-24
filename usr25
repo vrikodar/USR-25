@@ -78,7 +78,7 @@ def brute(ip, wordlist):
 				s.send(f'VRFY {user}\r\n'.encode())
 				answer = s.recv(1024).decode()
 				if not "unknown" in answer.lower():
-					print(f"[{GREEN}+{WHITE] {RED}{user}{WHITE} does exist")
+					print(f"[{GREEN}+{WHITE}] {RED}{user}{WHITE} does exist")
 				s.close()
 			except KeyboardInterrupt:
 				input = f"[{RED}!{WHITE} Do you want to end bruteforce? (y/n)]"
